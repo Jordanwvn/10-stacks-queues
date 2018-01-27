@@ -1,0 +1,21 @@
+{
+  "name": "lab-jordan",
+  "version": "1.0.0",
+  "description": "Run npm init to install the necessary dependencies before running the program. These should include uuid.",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "dependencies": {
+    "eslint": "^4.16.0",
+    "jest": "^22.1.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "jest --verbose",
+    "lint": "eslint -r *.js",
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
